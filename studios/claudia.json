@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "studios-api-executor",
+    "name": "studios-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "1d05wessbi"
+  }
+}

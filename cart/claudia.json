@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "cart-api-executor",
+    "name": "cart-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "no6lp5l07j"
+  }
+}

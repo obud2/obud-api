@@ -1,0 +1,32 @@
+{
+  "name": "banner-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "delete": "claudia destroy --profile obud",
+    "deploy": "npx tsc  && cp -f *-config.json dist/ && claudia create --profile obud --runtime nodejs18.x --memory 512 --policies policies --use-s3-bucket claudia.obud.site --handler index.handler --deploy-proxy-api --region ap-northeast-2",
+    "update-S3": "npx tsc && cp -f *-config.json dist/ && claudia update --profile obud  --memory 512 --use-s3-bucket claudia.obud.site  --region ap-northeast-2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.241.0",
+    "aws-serverless-express": "^3.3.8",
+    "class-validator": "^0.14.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.13.0",
+    "typedi": "^0.10.0",
+    "atoz-jthor": "^2.0.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "claudia": "^5.13.1",
+    "swagger-jsdoc": "^6.2.7",
+    "swagger-ui-express": "^4.6.0",
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "order-api-executor",
+    "name": "order-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "h0u5aqzbji"
+  }
+}

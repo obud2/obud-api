@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "banner-api-executor",
+    "name": "banner-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "2r0c0mz357"
+  }
+}

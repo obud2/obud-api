@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "bbs-api-executor",
+    "name": "bbs-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "gbppe43h0k"
+  }
+}

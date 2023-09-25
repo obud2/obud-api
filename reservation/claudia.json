@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "reservation-api-executor",
+    "name": "reservation-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "tg4zxz5nd5"
+  }
+}

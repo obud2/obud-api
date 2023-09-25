@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "batch-api-executor",
+    "name": "batch-api",
+    "region": "ap-northeast-2"
+  },
+  "api": {
+    "id": "k4i41vuyy2"
+  }
+}
